@@ -1,0 +1,115 @@
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background-color: #8D9EFF;
+}
+nav{
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 100px;
+}
+nav .nav-items{
+  display: flex;
+  flex: 1;
+  padding: 0 0 0 40px;
+}
+nav .nav-items li{
+  list-style: none;
+  padding: 0 15px;
+}
+nav .nav-items li a{
+  color: #6C4AB6;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav .nav-items li a:hover{
+  color: #8D9EFF;
+  transition: ease-in-out 200ms;
+}
+input {
+  font-family: "Poppins";
+}
+.container {
+  margin: 30px auto;
+  padding-bottom: 25px;
+  background: white;
+  width: 600px;
+  max-width: 100%;
+  border-radius: 20px;
+  }
+.chatbox {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  height: 300px;
+  width: 530px;
+  border: 2px solid #6C4AB6;
+  overflow: auto;
+  border-radius: 20px;
+  }
+#usermsg {
+  flex: 1;
+  border-radius: 15px;
+  width: 75%;
+  margin: 8px 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+#usermsg:focus{
+  border: 1px solid #6C4AB6;
+}
+#submitmsg{
+  background: white;
+  border: 2px solid #6C4AB6;
+  color: #6C4AB6;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 14px;
+}
+#submitmsg:hover {
+  background-color: #6C4AB6;
+  color: white;
+}
+
+.error {
+  color: #ff0000;
+}
+
+#header {
+  padding: 15px 25px;
+  display: flex;
+}
+
+#header p.welcome {
+  flex: 1;
+}
+
+.msgln {
+  margin: 0 0 5px 0;
+}
+
+.msgln span.chat-time {
+  color: #8D9EFF;
+  font-size: 60%;
+  vertical-align: super;
+}
+
+.msgln b.user-name {
+  font-weight: bold;
+  background: #8D9EFF;
+  color: white;
+  padding: 2px 4px;
+  font-size: 90%;
+  border-radius: 4px;
+  margin: 0 5px 0 0;
+}
